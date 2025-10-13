@@ -1,0 +1,32 @@
+:root{
+  --brand: #0d6efd;
+  --muted: #6c757d;
+}
+body{
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+a { text-decoration: none; }
+
+.section-title{
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-img-top{
+  height: 180px;
+  object-fit: cover;
+}
+
+/* simple responsive container spacing */
+.container > * + * { margin-top: 2rem; }
+
+/* Small utilities */
+.text-muted { color: var(--muted) !important; }
+
+/* Accessibility: focus outline */
+:focus{ outline: 3px solid rgba(13,110,253,0.25); outline-offset: 2px; }
