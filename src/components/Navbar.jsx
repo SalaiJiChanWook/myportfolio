@@ -13,7 +13,7 @@ function Navbar(){
             <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
             <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-            <li className="nav-item ms-2"><a className="btn btn-outline-primary btn-sm" href="/Resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+            <li className="nav-item ms-2"><a className="btn btn-outline-primary btn-sm" href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
           </ul>
         </div>
       </div>
