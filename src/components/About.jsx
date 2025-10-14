@@ -17,7 +17,7 @@ function About(){
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Contact</h5>
-              <p className="card-text text-muted">Email: <a href="mailto:you@example.com">programmer.salai@gamil.com</a></p>
+              <p className="card-text text-muted">Email: <a href="mailto:salailunlyanpao@gmail.com">salailunlyanpao@gmail.com</a></p>
               <p className="card-text text-muted">Location: Yangon, Myanmar</p>
               <p className="card-text text-muted">Telegram: https://t.me/UchiaSalai</p>
             </div>
