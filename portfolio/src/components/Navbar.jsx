@@ -24,7 +24,7 @@ function Navbar() {
   target="_blank" 
   rel="noreferrer"
 >
-  Resume
+ Download Resume
 </a>
             </li>
           </ul>
