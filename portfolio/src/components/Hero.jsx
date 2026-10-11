@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MyProfile from '../../assets/Myprofile.jpg';
+import MyProfile from '../assets/Myprofile.jpg';
 
 function Hero() {
   return (

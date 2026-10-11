@@ -4,6 +4,8 @@ import DisneyClone from '../assets/Disney-Clone.png';
 import MoodleDeployment from '../assets/MoodleDeploymentWithDockerOnRaspberryPi.png';
 import BankingSystem from '../assets/Banking-System-With-AVL-Tree.jpg';
 import ComputerVision from '../assets/ComputerVisionProject.png';
+import Riku_Telegram from '../assets/Riku.png';
+import ESP32withServo from '../assets/ESP32withServo.jpg';
 
 const projects = [
   {
@@ -53,7 +55,31 @@ const projects = [
     tech: ['Python', 'Linux', 'MTCNN', 'SVM', 'Raspberry Pi'],
     image: ComputerVision,
     link: 'https://github.com/SalaiJiChanWook/Computer_Vision_Final_Project'
-  }
+  },
+  {
+    id: 'p7',
+    title: 'Telegram E-Commerce & Payment Automation Bot',
+    description: 'Python (Aiogram) နှင့် SQLAlchemy ORM တို့ကို အသုံးပြု၍ တည်ဆောက်ထားသော automated bot ဖြစ်သည်။ WavePay, KPay QR payments များနှင့် database order tracking စနစ်များကို integrated ပြုလုပ်ထားပါသည်။',
+    tech: ['Python', 'Aiogram', 'SQLAlchemy', 'PostgreSQL', 'Telegram API'],
+    image: Riku_Telegram, // သင့် bot screenshot ပုံရှိပါက import လုပ်ပြီး အစားထိုးနိုင်ပါသည်
+    link: 'https://github.com/SalaiJiChanWook'
+  },
+  {
+    id: 'p8',
+    title: 'Offline Moodle LMS & Humanitarian Sync Architecture',
+    description: 'အင်တာနက်ဖြတ်တောက်ခံထားရသည့် ဒေသများအတွက် Raspberry Pi ပေါ်တွင် Moodle LMS ကို offline deployment ပြုလုပ်ပြီး automated backup & data sync script များကို Linux/Python ဖြင့် စီမံခန့်ခွဲသည့်စနစ်။',
+    tech: ['Raspberry Pi', 'Debian/Ubuntu', 'Moodle REST API', 'Python', 'Automation'],
+    image: MoodleDeployment,
+    link: 'https://github.com/SalaiJiChanWook/Moodle_Deployment_With_Docker_On_RaspberryPi'
+  },
+  {
+    id: 'p9',
+    title: 'ESP32 Smart Proximity & Servo Controller',
+    description: 'ESP32 microcontroller, HC-SR04 ultrasonic sensor နှင့် servo motor တို့ကို အသုံးပြုကာ Wi-Fi Hotspot mode ဖြင့် အဝေးမှ ထိန်းချုပ်နိုင်သည့် contactless smart IoT hardware စနစ်။',
+    tech: ['ESP32', 'C/C++', 'Microcontroller', 'IoT Sensors', 'Hardware'],
+    image: ESP32withServo,
+    link: 'https://github.com/SalaiJiChanWook/Esp32_Servo_with_WiFi_hotspot'
+  },
 ];
 
 export default projects;
