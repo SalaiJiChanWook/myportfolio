@@ -6,7 +6,7 @@ import BankingSystem from '../assets/Banking-System-With-AVL-Tree.jpg';
 import ComputerVision from '../assets/ComputerVisionProject.png';
 import Riku_Telegram from '../assets/Riku.png';
 import ESP32withServo from '../assets/ESP32withServo.jpg';
-import SmartAttendanceSystem from '../assets/projects/smart_attendance.jpg';
+import SmartAttendanceSystem from '../assets/smart_attendance.jpg';
 
 const projects = [
   {
