@@ -6,6 +6,7 @@ import BankingSystem from '../assets/Banking-System-With-AVL-Tree.jpg';
 import ComputerVision from '../assets/ComputerVisionProject.png';
 import Riku_Telegram from '../assets/Riku.png';
 import ESP32withServo from '../assets/ESP32withServo.jpg';
+import SmartAttendanceSystem from '../assets/projects/smart_attendance.jpg';
 
 const projects = [
   {
@@ -61,8 +62,8 @@ const projects = [
     title: 'Telegram E-Commerce & Payment Automation Bot',
     description: 'Python (Aiogram) နှင့် SQLAlchemy ORM တို့ကို အသုံးပြု၍ တည်ဆောက်ထားသော automated bot ဖြစ်သည်။ WavePay, KPay QR payments များနှင့် database order tracking စနစ်များကို integrated ပြုလုပ်ထားပါသည်။',
     tech: ['Python', 'Aiogram', 'SQLAlchemy', 'PostgreSQL', 'Telegram API'],
-    image: Riku_Telegram, // သင့် bot screenshot ပုံရှိပါက import လုပ်ပြီး အစားထိုးနိုင်ပါသည်
-    link: 'https://github.com/SalaiJiChanWook'
+    image: Riku_Telegram, 
+    link: 'https://github.com/SalaiJiChanWook/mlbb-shop-bot'
   },
   {
     id: 'p8',
@@ -79,6 +80,14 @@ const projects = [
     tech: ['ESP32', 'C/C++', 'Microcontroller', 'IoT Sensors', 'Hardware'],
     image: ESP32withServo,
     link: 'https://github.com/SalaiJiChanWook/Esp32_Servo_with_WiFi_hotspot'
+  },
+  {
+    id: 'p10',
+    title: 'Offline-First EdgeAI Smart Attendance System',
+    description: 'An offline-capable, real-time facial recognition attendance system combining ESP32-CAM and Raspberry Pi. Features face detection via MTCNN, FaceNet embeddings with SVM classification, automated SQLite local logging, duplicate prevention, and background cloud synchronization to Google Sheets.',
+    tech: ['Python', 'Raspberry Pi', 'ESP32-CAM', 'OpenCV', 'FaceNet', 'Scikit-learn', 'Django REST', 'React', 'SQLite'],
+    image: SmartAttendanceSystem, 
+    link: 'https://github.com/SalaiJiChanWook/smart_attendance_system'
   },
 ];
 
