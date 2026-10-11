@@ -29,6 +29,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<PortfolioPage />} />
             <Route path="/curriculum" element={<CurriculumPage />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
