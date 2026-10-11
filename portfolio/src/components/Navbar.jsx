@@ -18,9 +18,14 @@ function Navbar() {
             </li>
             <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
             <li className="nav-item ms-lg-2">
-              <a className="btn btn-outline-primary btn-sm px-3 rounded-pill" href="/resume.pdf" target="_blank" rel="noreferrer">
-                Resume
-              </a>
+              <a 
+  className="btn btn-outline-primary btn-sm px-3 rounded-pill" 
+  href="./SalaiLunLyanPon-Python&IoTDeveloperResume.pdf" 
+  target="_blank" 
+  rel="noreferrer"
+>
+  Resume
+</a>
             </li>
           </ul>
         </div>
