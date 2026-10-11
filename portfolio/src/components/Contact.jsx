@@ -32,9 +32,9 @@ function Contact() {
     setStatus(null)
 
     // ✅ Replace these with your own EmailJS values
-    const SERVICE_ID = 'service_yezv2ui'
-    const TEMPLATE_ID = 'template_o5tgl6i'
-    const PUBLIC_KEY = 'uwGDB108d3-wk7cWz'
+    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_yezv2ui';
+    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_o5tgl6i';
+    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'uwGDB108d3-wk7cWz';
 
     emailjs
       .send(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)

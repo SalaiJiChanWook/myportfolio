@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://SalaiJiChanWook.github.io/portfolio"
-,
+  "homepage": "https://SalaiJiChanWook.github.io/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
